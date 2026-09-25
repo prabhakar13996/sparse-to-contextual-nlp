@@ -1,0 +1,2 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,best_validation_macro_f1,training_time_seconds,n_train,n_validation,n_test,model_name,max_sequence_length,batch_size,learning_rate,epochs,weight_decay
+DistilBERT,0.7883202742409402,0.7339982128513232,0.7681969895901913,0.7449347770843731,0.7907812362386077,0.7583870225230618,1567.957707643509,38115,8167,8168,distilbert-base-uncased,128,16,2e-05,3,0.01

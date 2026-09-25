@@ -1,0 +1,2 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,best_validation_macro_f1,training_time_seconds,n_train,n_validation,n_test,vocab_size,max_sequence_length,embedding_dim,hidden_dim,batch_size,epochs
+BiLSTM,0.7178011753183153,0.6261673511282232,0.670534830046535,0.6425273645846206,0.7227442535152938,0.6642514297165644,66.67995643615723,38115,8167,8168,41560,128,100,128,32,5

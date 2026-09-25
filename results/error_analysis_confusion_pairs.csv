@@ -1,0 +1,31 @@
+model,true_label,predicted_label,errors
+TF-IDF + Logistic Regression,Depression,Suicidal,530
+TF-IDF + Logistic Regression,Suicidal,Depression,327
+TF-IDF + Logistic Regression,Normal,Stress,129
+TF-IDF + Logistic Regression,Depression,Normal,111
+TF-IDF + Logistic Regression,Suicidal,Normal,110
+TF-IDF + Logistic Regression,Depression,Stress,84
+TF-IDF + Logistic Regression,Depression,Anxiety,72
+TF-IDF + Logistic Regression,Mentalhealth,Sad,68
+TF-IDF + Logistic Regression,Depression,Sad,57
+TF-IDF + Logistic Regression,Suicidal,Sad,52
+BiLSTM,Depression,Suicidal,586
+BiLSTM,Suicidal,Depression,451
+BiLSTM,Normal,Stress,130
+BiLSTM,Depression,Stress,98
+BiLSTM,Suicidal,Normal,71
+BiLSTM,Mentalhealth,Sad,70
+BiLSTM,Sad,Mentalhealth,70
+BiLSTM,Anxiety,Stress,64
+BiLSTM,Depression,Normal,55
+BiLSTM,Normal,Depression,52
+DistilBERT,Depression,Suicidal,633
+DistilBERT,Suicidal,Depression,312
+DistilBERT,Normal,Stress,98
+DistilBERT,Sad,Mentalhealth,69
+DistilBERT,Depression,Stress,55
+DistilBERT,Suicidal,Sad,45
+DistilBERT,Mentalhealth,Sad,45
+DistilBERT,Depression,Sad,41
+DistilBERT,Anxiety,Stress,37
+DistilBERT,Depression,Normal,32

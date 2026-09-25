@@ -1,0 +1,2 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,training_time_seconds,n_train,n_validation,n_test,n_features
+TF-IDF + Logistic Regression,0.7512242899118511,0.6832143421478317,0.7387111384154761,0.7021978381580938,0.7524029620199556,21.062612295150757,38115,8167,8168,100000

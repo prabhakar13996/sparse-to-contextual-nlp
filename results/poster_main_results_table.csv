@@ -1,0 +1,4 @@
+Model,Accuracy,Macro F1,Weighted F1
+TF-IDF + Logistic Regression,75.12%,70.22%,75.24%
+BiLSTM,71.78%,64.25%,72.27%
+DistilBERT,78.83%,74.49%,79.08%
